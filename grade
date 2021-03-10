@@ -7,8 +7,8 @@ run_in_folder_if_exists "solution"
 printf "\n\n### Cleaning old files ###\n"
 make -f Makefile clean
 
-total=0
-i=0
+total=80
+i=80
 printf "\n\n### Check $i: our demo program should compile with your class\n"
 grade_command make -f Makefile demo
 printf "### Score $i: $grade\n"
