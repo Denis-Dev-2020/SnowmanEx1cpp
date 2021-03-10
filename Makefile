@@ -1,6 +1,7 @@
 #!make -f
 
-CXX=clang++-9 
+##CXX=clang++-9 
+CXX=g++
 CXXFLAGS=-std=c++2a -Werror
 
 HEADERS=snowman.hpp
